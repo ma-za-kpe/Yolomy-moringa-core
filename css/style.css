@@ -38,3 +38,30 @@ header,
     background-color: #99A3A4;
     height: 2px;
 }
+
+.circles{
+    margin-top: 10px;
+    margin-left: 150px;
+}
+
+.cards{
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+}
+
+.card-image{
+    max-width: 40%;
+    height: 150px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.price{
+    float: right;
+    margin-right: 20px;
+}
+
+.item{
+    margin-left: 20px;
+}
