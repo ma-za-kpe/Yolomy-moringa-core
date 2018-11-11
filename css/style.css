@@ -14,5 +14,27 @@ header,
 }
 
 .click{
+    margin-top: 80px;
 }
 
+.center{
+    margin-top: 180px;
+}
+
+.radio{
+    height: 100px;
+}
+
+.radio-button{
+    margin-top: 20px;
+    margin-left: 80px;
+}
+
+.products{
+    background-color: #78281F  ;
+}
+
+.divider{
+    background-color: #99A3A4;
+    height: 2px;
+}
