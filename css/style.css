@@ -13,12 +13,32 @@ header,
     background-size: cover;
 }
 
+html,
+body,
+header,
+#end {
+    height: 100%;
+}
+
+#end {
+    background: url("../images/backgrounds/about.jpg")no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
 .click{
     margin-top: 80px;
 }
 
 .center{
     margin-top: 180px;
+}
+
+.center2{
+    margin-top: 0px;
+    border: 2px solid #89866A;
 }
 
 .radio{
@@ -65,25 +85,26 @@ header,
 .item{
     margin-left: 20px;
 }
-
-#end {
-    height: 100%;
-    background: url("../images/backgrounds/about.jpg")no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+.navbar-brand{
+    margin-right: 450px;
 }
+
+.nav-link{
+    margin-right: 80px;
+}
+
 .top-nav-collapse {
     background-color: #24355C;
   }
   @media (max-width: 768px) {
     .navbar:not(.top-nav-collapse) {
       background-color: #24355C;
-    }
+    }  
   }
   @media (min-width: 800px) and (max-width: 850px) {
     .navbar:not(.top-nav-collapse) {
       background-color: #24355C;
     }
   }
+
+  
